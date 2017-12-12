@@ -5,27 +5,26 @@
 		$evening = 18;
 		$night= 0;
 
-    	$hour = date("H:i", time());
-
+    	$hour = date("H", time());
 	
- 		if($hour >= $morning && $hour <= $afternoon){
+ 		if($hour >= $morning && $hour < $afternoon){
 			$class = "morning";
-			echo "<p>Goede Morgen <br>Het is nu:\n" . $hour . "</p>" ;
+			echo "<p>Goede Morgen <br>Het is nu: " . date("H:i", time()) . "</p>" ;
     	}
 
-    	if($hour >= $afternoon && $hour <= $evening){
+    	if($hour >= $afternoon && $hour < $evening){
     		$class = "afternoon";
-    		echo "<p>Goede Middag <br>Het is nu:\n" . $hour . "</p>";
+    		echo "<p>Goede Middag <br>Het is nu: " . date("H:i", time()) . "</p>";
     	}
 
-    	if($hour >= $evening && $hour <= $night){
+    	if($hour >= $evening && $hour < $night){
     		$class = "evening";
-    		echo "<p>Goede Avond <br>Het is nu:\n" . $hour . "</p>";
+    		echo "<p>Goede Avond <br>Het is nu: " . date("H:i", time()) . "</p>";
     	}
 
-    	if($hour >= $night && $hour <= $morning){
+    	if($hour >= $night && $hour < $morning){
     		$class = "night";
-    		echo "<p>Goede Nacht <br>Het is nu:\n" . $hour . "</p>";
+    		echo "<p>Goede Nacht <br>Het is nu: " . date("H:i", time()) . "</p>";
     	}
 
 		?>

@@ -5,9 +5,9 @@ body{
 }
 
 p{
-	left: 200px;
+    left: 200px;
     margin: 0 auto;
-    width: 460px;
+    width: 470px;
     margin-top: 300px;
 }
 
@@ -19,17 +19,17 @@ p{
 
 .afternoon{
 	background-image: url("afternoon.jpg");
-
+	background-size: cover;
 }
 
 
 .evening{
 	background-image: url("evening.jpg");
-
+	background-size: cover;
 }
 
 .night{
 	background-image: url("night.jpg");
-
+	background-size: cover;
 
 }
