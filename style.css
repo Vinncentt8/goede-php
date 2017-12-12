@@ -1,7 +1,7 @@
 body{
 	font-family: 'Lobster', cursive;
 	color: white;
-	font-size: 80px;
+    font-size: 70px;
 }
 
 p{
@@ -14,23 +14,23 @@ p{
 
 
 .morning{
-	background-image: url("morning.jpg");
+	background-image: url("img/morning.jpg");
 	background-size: cover;
 }
 
 .afternoon{
-	background-image: url("afternoon.jpg");
+	background-image: url("img/afternoon.jpg");
 	background-size: cover;
 }
 
 
 .evening{
-	background-image: url("evening.jpg");
+	background-image: url("img/evening.jpg");
 	background-size: cover;
 }
 
 .night{
-	background-image: url("night.jpg");
+	background-image: url("img/night.jpg");
 	background-size: cover;
 
 }

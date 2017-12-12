@@ -1,10 +1,9 @@
-<?php
-		//date_default_timezone_set('CET');
+	<?php
+		//date_default_timezone_set (GMT+8);
 		$morning = 6;
 		$afternoon = 12;
 		$evening = 18;
 		$night= 0;
-
     	$hour = date("H", time());
 	
  		if($hour >= $morning && $hour < $afternoon){
@@ -28,8 +27,6 @@
     	}
 
 		?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +37,7 @@
 <body class="<?=$class?>">
 
 	
-	
+
 
 </body>
 </html>
